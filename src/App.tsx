@@ -1,13 +1,11 @@
-import { Button } from "./components/ui/button"
-
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
-      <Button>Click Me</Button>
+      <Home></Home>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
